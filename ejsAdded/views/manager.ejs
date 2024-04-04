@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Radio</title>
+    <link rel = "stylesheet" href="/css/manager-design.css">
+    <script type="module" src="/javascript/manager.js"></script>
+    <style>
+        .pop-up:target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section class="top-row">Indian Radio Manager</section>
+    <main>
+        <%- include('nav-bar') %>
+        <%- include('producer-list') %>
+        <%- include('time-slots') %> 
+        <%- include('dj-modal') %> 
+    </main>
+</body>
+</html>
